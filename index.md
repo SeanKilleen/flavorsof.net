@@ -83,3 +83,5 @@ A: Naming things is hard, and I'm not one to judge.
 I think as future versions of .NET are released and potentially conflicting names drift into the past, it will become much easier. In my opinion Microsoft was in a tough spot; they had to distingiush from .NET Framework v4.8, have minimal conflicting names with other libraries, and attempt to unite the .NET ecosystem around one path forward in terms of names. There were several possible approaches and I can't say I thought any others would be better than this one.
 
 ## More Resources
+
+Coming soon.
