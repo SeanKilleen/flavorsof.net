@@ -4,10 +4,11 @@ A quick reference for the sometimes-confusing differences in .NET nomenclature.
 
 ## Summary
 
-* **.NET Framework** is the original .NET -- the last version is v4.8, in favor of .NET 5
-* **.NET Core** is the more recently developed successor to .NET Framework. Its last version is v3.1; it then becomes .NET 5.
-* **.NET Standard** is a sort of contract that guarantees API surface to be available and thus limits where devices can run. It allows apps to target certain environments and know certain API calls are supported.
+* **.NET Framework** is the original `.NET` -- the last version is `v4.8`, in favor of `.NET 5`
+* **.NET Core** is the more recently developed successor to .NET Framework. Its last version is `v3.1`; it then becomes `.NET 5`.
+* **.NET Standard** is a sort of contract that guarantees API surface to be available and thus limits where devices can run. It allows apps to target certain environments and know certain API calls are supported. `v2.1` is the last version, retired in favor of the way .NET 5 does targeting.
 * **.NET 5** (or .NET Core 5) is the latest incarnation of .NET. It is the next evolution of .NET Core, and represents a branding consolidation.
+* **Do we say 'core'?**: .NET 5 may also be called `.NET Core 5` to distinguish from .NET MVC (which had a version 5). Similarly, certain libraries, e.g. EntityFramework, will call themselves `EF Core 5` to distinguish from `EF 5`, an older version of entity framework for .NET.
 
 ## .NET Framework (a.k.a .NET, netfx)
 
@@ -54,5 +55,11 @@ A: I'm [Sean Killeen](https://SeanKilleen.com), a Microsoft MVP and avid .NET de
 ### Q: I don't think something on this site is correct.
 
 A: [Issues](https://github.com/SeanKilleen/flavorsof.net/issues) and [Pull Requests](https://github.com/SeanKilleen/flavorsof.net/pulls) welcome! I'm always up for adding resources and making this page clearer.
+
+### Q: In your opinion, Isn't this naming stuff absolute madness?
+
+A: Naming things is hard, and I'm not one to judge. 
+
+I think as future versions of .NET are released and potentially conflicting names drift into the past, it will become much easier. In my opinion Microsoft was in a tough spot; they had to distingiush from .NET Framework v4.8, have minimal conflicting names with other libraries, and attempt to unite the .NET ecosystem around one path forward in terms of names. There were several possible approaches and I can't say I thought any others would be better than this one.
 
 ## More Resources
