@@ -84,4 +84,4 @@ I think as future versions of .NET are released and potentially conflicting name
 
 ## More Resources
 
-Coming soon.
+Coming soon. Feel free to [suggest some](https://github.com/SeanKilleen/flavorsof.net/issues/new)!
