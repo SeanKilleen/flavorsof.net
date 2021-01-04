@@ -1,6 +1,6 @@
 # The Flavors of .NET
 
-A quick reference for the sometimes-confusing differences in .NET nomenclature, by [Sean Killeen](https://SeanKilleen.com) and [others](https://github.com/seankilleen/flavorsof.net).
+A quick reference for the sometimes-confusing differences in .NET nomenclature.
 
 ## Summary
 
