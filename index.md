@@ -1,6 +1,6 @@
 # The Flavors of .NET
 
-A quick guide to understanding the sometimes-confusing differences in .NET Nomenclature.
+A quick reference for the sometimes-confusing differences in .NET Nomenclature.
 
 ## .NET Framework (a.k.a .NET, netfx)
 
@@ -11,3 +11,5 @@ A quick guide to understanding the sometimes-confusing differences in .NET Nomen
 ## .NET 5
 
 ## FAQ
+
+## More Resources
