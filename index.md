@@ -1,7 +1,3 @@
-# The Flavors of .NET
-
-A quick reference for the sometimes-confusing differences in .NET nomenclature.
-
 ## Summary
 
 * **.NET Framework** is the original `.NET` -- the last version is `v4.8`, in favor of `.NET 5`
