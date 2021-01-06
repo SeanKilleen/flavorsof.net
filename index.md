@@ -1,8 +1,8 @@
 ---
 layout: single
+author: Sean Killeen
+title: Summary
 ---
-
-## Summary
 
 * **.NET Framework** is the original `.NET` -- the last version is `v4.8`, in favor of `.NET 5`
 * **.NET Core** is the more recently developed successor to .NET Framework. Its last version is `v3.1`; it then becomes `.NET 5`.
