@@ -1,3 +1,7 @@
+---
+layout: single
+---
+
 ## Summary
 
 * **.NET Framework** is the original `.NET` -- the last version is `v4.8`, in favor of `.NET 5`
