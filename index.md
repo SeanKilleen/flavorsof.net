@@ -2,7 +2,10 @@
 layout: single
 author: Sean Killeen
 author_profile: true
+title: "The Many Flavors of .NET"
 ---
+
+I've often been asked about the differences between different incarnations of .NET and the differences between them. I created this guide to attempt to distill them.
 
 ## At a Glance
 

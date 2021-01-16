@@ -1,8 +1,8 @@
 Sean Killeen:
   name: "Sean Killeen"
   avatar: "https://seankilleen.com/images/bio-photo.jpg"
-  bio: "A mind at work. MS MVP, Technical Director at CapTech, NUnit docs lead, Speaker, Trainer. Trying to be all the human I can be with the time I have. (he/him)"
-  location: "Arlington, VA"
+  bio: "A mind at work. MS MVP, Technical Director at [CapTech](https://captechconsulting.com), [NUnit docs](https://docs.nunit.org) lead, Speaker, Trainer. Trying to be all the human I can be with the time I have. (he/him)"
+  location: #
   email: "SeanKilleen@gmail.com"
   links:
     - label: "Email"
