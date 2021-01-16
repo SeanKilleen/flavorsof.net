@@ -1,6 +1,6 @@
 Sean Killeen:
   name: "Sean Killeen"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: "https://seankilleen.com/images/bio-photo.jpg"
   bio: "A mind at work. MS MVP, Technical Director at CapTech, NUnit docs lead, Speaker, Trainer. Trying to be all the human I can be with the time I have. (he/him)"
   location: "Arlington, VA"
   email: "SeanKilleen@gmail.com"
