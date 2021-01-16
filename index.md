@@ -40,7 +40,9 @@ Microsoft is retiring the .NET Core brand in favor of unifying under .NET 5, whi
 
 ### .NET Standard
 
-You can think of .NET Standard as an specification for which calls a program can make that will be supported by the underlying OS. The idea is that lower versions of .NET Standard will have a smaller API surface available to use, but will be able to run in more places. As the version numbers of .NET Standard increase, so does the API surface, but the number of places it can run is reduced.
+.NET Standard is a little more abstract than other flavors mentioned here, but is included because the naming sometimes gets folks mixed up.
+
+While the other flavors of .NET listed here are runt-imes that turn your assemblies into running code, you can think of .NET Standard as an specification for which calls a program can make that will be supported by the underlying OS. The idea is that lower versions of .NET Standard will have a smaller API surface available to use, but will be able to run in more places. As the version numbers of .NET Standard increase, so does the API surface, but the number of places it can run is reduced.
 
 .NET Standard is frozen as of v2.1 -- with the move to .NET 5, targeting is being done slightly differently.
 
