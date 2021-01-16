@@ -18,6 +18,8 @@ I've often been asked about the differences between different incarnations of .N
 
 ## The Various Flavors of .NET
 
+Generally ordered from latest to earliest.
+
 ### .NET 6
 
 This will be the first LTS (long-term support) release of .NET after going all in on .NET Core and moving to the `.NET` (eg. `.NET 5`) brand. At this point, Microsoft aims for the platform to have feature parity with Xamarin and Mono.
