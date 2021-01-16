@@ -1,4 +1,13 @@
-## Summary
+---
+layout: single
+author: Sean Killeen
+author_profile: true
+title: "The Many Flavors of .NET"
+---
+
+I've often been asked about the differences between different incarnations of .NET and the differences between them. I created this guide to attempt to distill them.
+
+## At a Glance
 
 * **.NET Framework** is the original `.NET` -- the last version is `v4.8`, in favor of `.NET 5`
 * **.NET Core** is the more recently developed successor to .NET Framework. Its last version is `v3.1`; it then becomes `.NET 5`.
