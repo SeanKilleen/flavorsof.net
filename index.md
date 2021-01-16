@@ -18,11 +18,17 @@ I've often been asked about the differences between different incarnations of .N
 
 ## The Various Flavors of .NET
 
-### .NET Framework (a.k.a .NET, netfx)
+### .NET 6
 
-This is the classic .NET Framework that has evolved through the years. 
+This will be the first LTS (long-term support) release of .NET after going all in on .NET Core and moving to the `.NET` (eg. `.NET 5`) brand. At this point, Microsoft aims for the platform to have feature parity with Xamarin and Mono.
 
-The last developed version of the .NET Framework is v4.8.
+### .NET 5
+
+With .NET 5, Microsoft says goodbye to .NET Framework, and goes "all in" on .NET Core. 
+
+.NET 5 _is_ .NET Core, with a new name that makes it the standard-bearer. It is the natural evolution of .NET Core 3.1 with greater support and a broader surface area of compatibility.
+
+.NET 5 is an active release and is not long-term support (LTS); for LTS support, users may need to wait for .NET 6.
 
 ### .NET Core
 
@@ -38,14 +44,6 @@ You can think of .NET Standard as an specification for which calls a program can
 
 * [Demystifying .NET Core and .NET Standard, by Immo Landwerth](https://docs.microsoft.com/en-us/archive/msdn-magazine/2017/september/net-standard-demystifying-net-core-and-net-standard)
 * [.NET Standard on MS Docs](https://docs.microsoft.com/en-us/dotnet/standard/net-standard)
-
-### .NET 5
-
-With .NET 5, Microsoft says goodbye to .NET Framework, and goes all in on .NET Core. 
-
-.NET 5 _is_ .NET Core, with a new name that makes it the standard-bearer. It is the natural evolution of .NET Core 3.1 with greater support.
-
-.NET 5 is an active release and is not long-term support (LTS); for LTS support, users may need to wait for .NET 6).
 
 ### Mono
 
@@ -63,9 +61,11 @@ Microsoft's goal for .NET 5 was to incorporate the full capabilities of Xamarin,
 
 * [Xamarin](https://dotnet.microsoft.com/apps/xamarin)
 
-### .NET 6
+### .NET Framework (a.k.a .NET, netfx)
 
-This will be the first LTS (long-term support) release of .NET after going all in on .NET Core and moving to the `.NET` (eg. `.NET 5`) brand. At this point, Microsoft aims for the platform to have feature parity with Xamarin and Mono.
+This is the classic .NET Framework that has evolved through the years. 
+
+The last developed version of the .NET Framework is v4.8. The future is in `.NET 5`, which evolved from `.NET Core`.
 
 ## FAQ
 
