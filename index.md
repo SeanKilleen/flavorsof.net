@@ -10,11 +10,11 @@ I've often been asked about the differences between different incarnations of .N
 
 ## At a Glance
 
-* **.NET Framework** is the original `.NET` -- the last version is `v4.8`, in favor of `.NET 5`
+* **.NET 5** is the latest incarnation of .NET. It is the next evolution of .NET Core, and represents a branding consolidation.
+  * **Do we say 'core'?**: .NET 5 does not include the word `Core` in its naming. However, ASP.NET 5 may also be called `ASP.NET Core 5` to distinguish from .NET MVC (which had a version 5). Similarly, certain libraries, e.g. Entity Framework, will call themselves `EF Core 5` to distinguish from `EF 5`, an older version of Entity Framework for .NET.
 * **.NET Core** is the more recently developed successor to .NET Framework. Its last version is `v3.1`; it then becomes `.NET 5`.
 * **.NET Standard** is a sort of contract that guarantees API surface to be available and thus limits where devices can run. It allows apps to target certain environments and know certain API calls are supported. `v2.1` is the last version, retired in favor of the way .NET 5 does targeting.
-* **.NET 5** (or .NET Core 5) is the latest incarnation of .NET. It is the next evolution of .NET Core, and represents a branding consolidation.
-* **Do we say 'core'?**: .NET 5 may also be called `.NET Core 5` to distinguish from .NET MVC (which had a version 5). Similarly, certain libraries, e.g. Entity Framework, will call themselves `EF Core 5` to distinguish from `EF 5`, an older version of Entity Framework for .NET.
+* **.NET Framework** is the original `.NET` -- the last version is `v4.8`, in favor of `.NET 5`
 
 ## The Various Flavors of .NET
 
