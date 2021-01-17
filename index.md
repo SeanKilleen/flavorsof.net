@@ -1,8 +1,10 @@
 ---
 layout: single
-classes: wide
 author: Sean Killeen
 author_profile: false
+toc: true
+toc_label: Contents
+tock_sticky: true
 title: "The Many Flavors of .NET"
 ---
 
