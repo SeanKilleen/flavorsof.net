@@ -1,0 +1,72 @@
+// These are some variables and a mixin extracted from Phil Haack's implementation.
+$carbon-ad-width: 140px;
+$carbon-ad-font-size: 12pt;
+$brand-color: #258fb8;
+
+#carbonads {
+    bottom: 1rem;
+    display: block;
+    position: fixed;
+    right: 1rem;
+    text-align: left;
+    width: $carbon-ad-width;
+    z-index: 100;
+
+    a {
+        color: $text-color;
+
+        &:hover {
+            color: $brand-color;
+        }
+    }
+
+    span {
+        display: block;
+        overflow: hidden;
+    }
+}
+
+.carbon-img {
+    display: block;
+    line-height: 1;
+    margin: 0 auto 8px;
+}
+
+.carbon-text {
+    font-size: $carbon-ad-font-size;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.carbon-poweredby {
+    display: block;
+    font-size: 9px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1200px) {
+    #carbonads {
+        margin: auto auto auto 20px;
+        position: relative;
+        width: 100%;
+
+        .carbon-img {
+            float: left;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        .carbon-text {
+            font-size: $carbon-ad-font-size;
+
+            display: inline;
+            line-height: 8px;
+        }
+    }
+
+    body .page-content {
+        margin-right: 0;
+    }
+}
