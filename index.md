@@ -4,8 +4,9 @@ author: Sean Killeen
 author_profile: false
 toc: true
 toc_label: Contents
-tock_sticky: true
+toc_sticky: true
 title: "The Many Flavors of .NET"
+comments: true
 ---
 
 I've often been asked about the differences between different incarnations of .NET and the differences between them. I created this guide to attempt to distill them.
