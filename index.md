@@ -4,7 +4,7 @@ author: Sean Killeen
 author_profile: false
 toc: true
 toc_label: Contents
-tock_sticky: true
+toc_sticky: true
 title: "The Many Flavors of .NET"
 comments: true
 ---
