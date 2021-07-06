@@ -76,10 +76,8 @@ layout: default
         </div>
 
         {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
-        <h1>COMMENTS SHOULD BE HERE</h1>
         {% include comments.html %}
         {% else %}
-        <h1>SOMETHING IS UP WITH COMMENTS</h1>
         {% endif %}
     </article>
 
