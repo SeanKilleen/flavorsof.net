@@ -32,12 +32,12 @@ words_per_minute: 200
 comments:
   provider: "giscus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   giscus:
-    repo_id              : "MDEwOlJlcG9zaXRvcnkzMjY3NzcwOTg=" # Shown during giscus setup at https://giscus.app
-    category_name        : "Comments" # Full text name of the category
-    category_id          : "DIC_kwDOE3o5Cs4B-OLH" # Shown during giscus setup at https://giscus.app
-    discussion_term      : "pathname" # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled    : 1 # '1' for enabled (default), '0' for disabled
-    theme                : "light" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"  disqus:
+    repo_id: "MDEwOlJlcG9zaXRvcnkzMjY3NzcwOTg=" # Shown during giscus setup at https://giscus.app
+    category_name: "Comments" # Full text name of the category
+    category_id: "DIC_kwDOE3o5Cs4B-OLH" # Shown during giscus setup at https://giscus.app
+    discussion_term: "pathname" # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled: 1 # '1' for enabled (default), '0' for disabled
+    theme: "light" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"  disqus:
     shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
@@ -91,7 +91,7 @@ social:
 
 # Analytics
 analytics:
-  provider: "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider: "custom" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id: "G-LRTT722V96"
     anonymize_ip: # true, false (default)
